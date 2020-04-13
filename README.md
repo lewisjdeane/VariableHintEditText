@@ -20,7 +20,7 @@ allprojects {
 In your app-specific build.gradle:
 
 ```
-implementation 'com.github.lewisjdeane:VariableHintEditText:-SNAPSHOT'
+implementation 'com.github.lewisjdeane:VariableHintEditText:1.0'
 ```
 
 # Use
