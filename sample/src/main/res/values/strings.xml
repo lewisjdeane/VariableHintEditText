@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">VariableHintEditText Sample App</string>
+
+    <string name="hint1">Hint 1</string>
+    <string name="hint2">Hint 2</string>
+    <string name="hint3">Hint 3</string>
+
+    <array name="hints">
+        <item>Hint 1</item>
+        <item>Hint 2</item>
+        <item>Hint 3</item>
+    </array>
+
+    <array name="hints_res">
+        <item>@string/hint1</item>
+        <item>@string/hint2</item>
+        <item>@string/hint3</item>
+    </array>
 </resources>
