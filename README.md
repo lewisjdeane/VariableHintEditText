@@ -48,7 +48,7 @@ In your layout XML:
 
 ### Include a prefix
 
-To add a prefix to each hint in the array use the attribute `app:hints`:
+To add a prefix to each hint in the array use the attribute `app:hints_prefix`:
 
 ```
     <com.lewisdeane.vhedittext.VariableHintEditText
