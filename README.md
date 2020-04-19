@@ -6,7 +6,7 @@ Create a more interesting user experience by displaying different hints to the u
 
 In your top-level build.gradle make sure you have jitpack listed as a repository:
 
-```
+```groovy
 allprojects {
     repositories {
         maven {
@@ -19,7 +19,7 @@ allprojects {
 
 In your app-specific build.gradle:
 
-```
+```groovy
 implementation 'com.github.lewisjdeane:VariableHintEditText:1.0'
 ```
 
@@ -29,7 +29,7 @@ implementation 'com.github.lewisjdeane:VariableHintEditText:1.0'
 
 In your strings.xml:
 
-```
+```xml
     <array name="hints">
         <item>Hint 1</item>
         <item>Hint 2</item>
@@ -39,7 +39,7 @@ In your strings.xml:
 
 In your layout XML:
 
-```
+```xml
     <com.lewisdeane.vhedittext.VariableHintEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,7 +50,7 @@ In your layout XML:
 
 To add a prefix to each hint in the array use the attribute `app:hints_prefix`:
 
-```
+```xml
     <com.lewisdeane.vhedittext.VariableHintEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
